@@ -89,7 +89,7 @@ model.save("customer_value_model.keras")
 joblib.dump(scaler, "feature_scaler.pkl")
 joblib.dump(y_scaler, "target_scaler.pkl")
 This allows the model to be reused without retraining.
-Project Structure
+  ## Project Structure
 customer-value-prediction/
 │
 ├── customer_value_regression.ipynb
@@ -100,7 +100,7 @@ customer-value-prediction/
 ├── training_history.json
 ├── requirements.txt
 └── README.md
-Key Concepts
+## Key Concepts
 Deep Learning Regression
 TensorFlow & Keras
 Neural Networks
@@ -121,6 +121,6 @@ Cross-Validation
 API Deployment
 Web Application
 Cloud Deployment
-Author
-Nima Hossienian
+ ## Author
+ ## Nima Hossienian
 Machine Learning & Deep Learning Portfolio Project
